@@ -1,0 +1,18 @@
+table {
+  width: 97%;
+  margin: 0 auto;
+}
+
+table,
+th,
+tr {
+  border: 1.5px solid #d3d3d3;
+}
+
+thead {
+  background-color: #d3d3d3;
+}
+
+.text {
+  word-wrap: break-word;
+}
