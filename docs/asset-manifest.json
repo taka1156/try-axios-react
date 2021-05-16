@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/try-axios-react/static/css/main.f4bbe9b7.chunk.css",
-    "main.js": "/try-axios-react/static/js/main.5e37d0ce.chunk.js",
-    "main.js.map": "/try-axios-react/static/js/main.5e37d0ce.chunk.js.map",
+    "main.js": "/try-axios-react/static/js/main.eab4bbed.chunk.js",
+    "main.js.map": "/try-axios-react/static/js/main.eab4bbed.chunk.js.map",
     "runtime-main.js": "/try-axios-react/static/js/runtime-main.177b6279.js",
     "runtime-main.js.map": "/try-axios-react/static/js/runtime-main.177b6279.js.map",
     "static/js/2.1346620d.chunk.js": "/try-axios-react/static/js/2.1346620d.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.177b6279.js",
     "static/js/2.1346620d.chunk.js",
     "static/css/main.f4bbe9b7.chunk.css",
-    "static/js/main.5e37d0ce.chunk.js"
+    "static/js/main.eab4bbed.chunk.js"
   ]
 }
