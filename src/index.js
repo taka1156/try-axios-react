@@ -9,7 +9,7 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <div className="App">
-      <BrowserRouter basename={process.env.BASE_URL}>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Navigation />
         <header className="App-header">
           <Switch>
