@@ -1,20 +1,21 @@
 import React, { useState } from 'react';
-import { keyWordList } from '../../constants/';
+import { keyWordList, MaxIndex } from '../../../constants/';
 
 // セレクタの内容生成
 const generateWord = (keywords) => {
   return keywords.map((word) => <option key={word}>{word}</option>);
 };
 
-// 1 ~ end
-const generateIndex = (end = 10) => {
-  return [...new Array(end)].map((_, i) => {
-    return (
-      <option key={i + 1} value={i + 1}>
-        {i + 1}
-      </option>
-    );
-  });
+// 1 ~ end (per 10)
+const generateIndex = (end = 50) => {
+  return [...new Array(end/10).keys()].map((i) => {
+    const index = (i + 1) * 10;
+      return (
+        <option key={index} value={index}>
+          {index}
+        </option>
+      );
+    });
 };
 
 const Forms = (props) => {
@@ -23,7 +24,7 @@ const Forms = (props) => {
 
   const submitFunc = (e) => {
     e.preventDefault();
-    props.setSeachInfo(tag, maxPage);
+    props.setSearchInfo(tag, maxPage);
   };
 
   return (
@@ -51,7 +52,7 @@ const Forms = (props) => {
             setMaxPage(e.target.value);
           }}
         >
-          {generateIndex()}
+          {generateIndex(MaxIndex)}
         </select>
       </div>
 

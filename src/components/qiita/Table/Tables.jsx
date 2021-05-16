@@ -1,5 +1,5 @@
 import React from 'react';
-import './Table.css'
+import './Table.css';
 
 const shapeTags = (selectedTag, tags) => {
   const flatedTags = tags.map((tag) => tag.name);

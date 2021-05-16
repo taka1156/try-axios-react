@@ -102,58 +102,9 @@ const keyWordList = [
   'babel',
 ];
 
-const dummyArticles = [
-  {
-    coediting: false,
-    comments_count: 0,
-    created_at: '2021-05-15T14:45:19+09:00',
-    group: null,
-    id: '4256a902940c2e673392',
-    likes_count: 0,
-    private: false,
-    reactions_count: 0,
-    tags: [
-      {
-        name: 'JSON',
-        versions: [],
-      },
-      {
-        name: 'TypeScript',
-        versions: [],
-      },
-      {
-        name: 'React',
-        versions: [],
-      },
-    ],
-    title: 'React入門 - Part5 - jsonファイルの読み込み、表示',
-    updated_at: '2021-05-15T14:45:19+09:00',
-    url: 'https://qiita.com/yokowake12345/items/4256a902940c2e673392',
-    user: {
-      description: '',
-      facebook_id: '',
-      followees_count: 0,
-      followers_count: 1,
-      github_login_name: null,
-      id: 'yokowake12345',
-      items_count: 9,
-      linkedin_id: '',
-      location: '',
-      name: 'robert clapton',
-      organization: '',
-      permanent_id: 559029,
-      profile_image_url:
-        'https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/559029/profile-images/1618712756',
-      team_only: false,
-      twitter_screen_name: null,
-      website_url: '',
-    },
-    page_views_count: null,
-    team_membership: null,
-  },
-];
+const MaxIndex = 100;
 
 export {
   keyWordList,
-  dummyArticles
+  MaxIndex
 };

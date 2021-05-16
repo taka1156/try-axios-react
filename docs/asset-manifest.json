@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/try-axios-react/static/css/main.f4bbe9b7.chunk.css",
+    "main.js": "/try-axios-react/static/js/main.5e37d0ce.chunk.js",
+    "main.js.map": "/try-axios-react/static/js/main.5e37d0ce.chunk.js.map",
+    "runtime-main.js": "/try-axios-react/static/js/runtime-main.177b6279.js",
+    "runtime-main.js.map": "/try-axios-react/static/js/runtime-main.177b6279.js.map",
+    "static/js/2.1346620d.chunk.js": "/try-axios-react/static/js/2.1346620d.chunk.js",
+    "static/js/2.1346620d.chunk.js.map": "/try-axios-react/static/js/2.1346620d.chunk.js.map",
+    "static/js/3.ada44306.chunk.js": "/try-axios-react/static/js/3.ada44306.chunk.js",
+    "static/js/3.ada44306.chunk.js.map": "/try-axios-react/static/js/3.ada44306.chunk.js.map",
+    "index.html": "/try-axios-react/index.html",
+    "static/css/main.f4bbe9b7.chunk.css.map": "/try-axios-react/static/css/main.f4bbe9b7.chunk.css.map",
+    "static/js/2.1346620d.chunk.js.LICENSE.txt": "/try-axios-react/static/js/2.1346620d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.177b6279.js",
+    "static/js/2.1346620d.chunk.js",
+    "static/css/main.f4bbe9b7.chunk.css",
+    "static/js/main.5e37d0ce.chunk.js"
+  ]
+}
